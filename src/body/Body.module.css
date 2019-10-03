@@ -1,10 +1,12 @@
 .bodyWrapper {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	padding: 5px;
+	justify-content: center;
 	margin: 5px;
 	align-items: center;
+	flex-wrap: wrap;
+	height: 86vh;
 	border: 1px solid black;
-	width: 50%;
-	margin: auto;
+	background-color: aliceblue;
 }
